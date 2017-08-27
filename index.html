@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
+
 <body>
     
 <nav id="menu">
@@ -34,41 +35,41 @@
 <div id="skills">
        <h1 id="skills-header">Moje<span id="span-skills"> umiejętności</span></h1>
        <h3 class="skills-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto rerum asperiores sint excepturi quidem rem non voluptatum. Quaerat, in nam! Dolorem, nemo consequuntur porro officiis tenetur doloribus quae ullam natus.</h3>
-      
+       
 <div id="icons">
  
-   <img src="icons/html5.png" alt="HTML5" hspace="40">
-   <img src="icons/css3.png" alt="CSS3" hspace="40">
-   <img src="icons/js.png" alt="JavaScript" hspace="40">
-   <img src="icons/jquery.png" alt="jQuery" hspace="40">
-   <p id="p-icons">HTML5     CSS3     JavaScript     jQuery</p>
+   <figure><img class="icons2" src="icons/html5.png" alt="HTML5"><figcaption>HTML5</figcaption></figure>
+   <figure><img class="icons2" src="icons/css3.png" alt="CSS3"><figcaption>CSS3</figcaption></figure>
+   <figure><img class="icons2" src="icons/js.png" alt="JavaScript"><figcaption>JavaScript</figcaption></figure>
+   <figure><img class="icons2" src="icons/jquery.png" alt="jQuery"><figcaption>jQuery</figcaption></figure>
+   
 </div>
- </div>
-<div id="portfolio">
-        <h1 id="portfolio-header">Moje portfolio</h1>
-        <img src="img/portfolio1.jpg" alt="Projekt 1">
-        <img src="img/portfolio2.jpg" alt="Projekt 2">
-        <img src="img/portfolio4.jpg" alt="Projekt 3">
 </div>
-        
-<nav id="contact">
-    <h1 id="contact-header">Łukasz Piecha</h1>
-    <h4 class="contact-content">ul. Szczęsliwa 16/26<br>08-205 Warszawa <br><br>tel: 538 484 205<br>e-mail: luki.piecha@gmail.com</h4>
-    
-    <form action="https://formspree.io/your@email.com" method="POST">
-    
-    <input type="name" name="name" placeholder="Imię i nazwisko">
-    <input type="email" name="_replyto" placeholder="E-mail">
-    <textarea name="msgbox" id="msgbox" placeholder="Treść wiadomości" cols="40" rows="5"></textarea>
-    <input type="submit" value="Wyślij">
-</form>
-    
-</nav>
+    <div id="portfolio">
        
-               <footer id="footer">
-                   <h5 class="footer-content">Copyright &copy; Łukasz Piecha</h5>
-               </footer>        
-               
-                
+        <h1 id="portfolio-header">Moje <span id="portfolio-greenword">portfolio</span></h1>
+        
+        <div class="zdjecia"><div class="hover1"><br>Opis projektu<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem culpa quia odio eaque minima eos rem, voluptatibus nisi velit.<br><br> Wykorzystane technologie: <br><br>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</div>
+        
+        <img class="pictures" src="img/portfolio1.jpg" alt="Projekt 1" id="zdjecie1"><div class="hover1"><br>Opis projektu<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem culpa quia odio eaque minima eos rem, voluptatibus nisi velit.<br><br> Wykorzystane technologie: <br><br>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</div>
+        
+        <img class="pictures" src="img/portfolio2.jpg" alt="Projekt 2" id="zdjecie2"><div class="hover1"><br>Opis projektu<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem culpa quia odio eaque minima eos rem, voluptatibus nisi velit.<br><br> Wykorzystane technologie: <br><br>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</div><img class="pictures" src="img/portfolio4.jpg" alt="Projekt 3" id="zdjecie3">
+        </div>
+        
+<div id="contact">
+    <h1 id="contact-header">Łukasz <span id="nazwisko">Piecha</span></h1>
+    <h4 class="contact-content">ul. Szczęsliwa 16/26<br>08-205 Warszawa <br><br>tel: 538 484 205<br>e-mail: luki.piecha@gmail.com</h4>
+    <div id="divform"><form id="formbox" action="https://formspree.io/your@email.com" method="POST">
+    <input class="boxstyle" type="text" name="namesurname" placeholder="Imię i nazwisko"><br>
+    <input class="boxstyle" type="email" name="_replyto" placeholder="E-mail"><br>
+    <textarea name="msgbox" cols="40" rows="2" class="msgstyle" placeholder="Treść wiadomości"></textarea><br>
+    <input class="zielony" type="submit" value="Wyślij">
+    </form>
+        </div>
+   
+       <footer id="footer">
+        <h5 class="footer-content">Copyright &copy; Łukasz Piecha</h5>
+        </footer>  
+        </div></div>
 </body>
 </html>
